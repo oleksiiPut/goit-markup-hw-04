@@ -121,14 +121,6 @@ body {
   margin-left: auto;
 }
 
-.mail-item,
-.tel-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--text-item-color);
-}
-
 .header-item-address:first-child {
   margin-right: 50px;
 }
@@ -139,7 +131,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--text-item-color);
+
+  display: flex;
+  align-items: center;
 }
 
 .mail-icon,
@@ -148,10 +143,10 @@ body {
   margin-right: 10px;
 }
 
-.mail-item:hover,
-.mail-item:focus,
-.tel-item:hover,
-.tel-item:focus {
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 
