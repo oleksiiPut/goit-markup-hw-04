@@ -109,7 +109,7 @@ h6 {
   color: #404bbf;
 }
 
-.navigation-link:after {
+.navigation-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -426,6 +426,7 @@ h6 {
 .footer-wrapper {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 
 .footer-social-title {
